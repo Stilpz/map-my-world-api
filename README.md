@@ -55,7 +55,7 @@ Ejemplo:
 PUT /location_category_review/Location1/Category1/
 ```
 
-Ejemplos de JSON para Crear Locaciones y Categorías
+## Ejemplos de JSON para Crear Locaciones y Categorías
 
 JSON para Crear una Ubicación:
 ```json
