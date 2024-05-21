@@ -28,15 +28,7 @@ class LocationCategoryReview(BaseModel):
     location_name: str
     category_name: str
     last_reviewed: datetime=datetime.now()
-
-@app.get("/")
-def index():
-    return {"message" : "Bienvenidos al API Map My World'"}
-
-# @app.get("/locations/{id}")
-# def show_location(id: int):
-#     return {"data" : id}
-
+    
 #Rutas para agregar nuevas ubicaciones y categorías
 @app.post("/locations/", response_model=Location)
 def insert_location(location: Location):
@@ -49,6 +41,7 @@ def insert_location(location: Location):
 def insert_category(category: Category):
     database["categories"].append(category)
     return category
+
 
 # Función para obtener combinaciones de ubicación-categoría no revisadas en los últimos 30 días
 def get_unreviewed_locations_categories():
@@ -76,3 +69,8 @@ def mark_location_category_reviewed(location_name: str, category_name: str):
             review.last_reviewed = datetime.now()
             return {"message": f"Review for {location_name} in category {category_name} marked as reviewed."}
     raise HTTPException(status_code=404, detail="Location-category combination not found")
+
+# Documentación del API
+@app.get("/", include_in_schema=False)
+async def read_root():
+    return {"message": "Welcome to Map My World API. Please refer to the documentation at /docs."}
