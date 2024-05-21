@@ -57,24 +57,20 @@ PUT /location_category_review/Location1/Category1/
 
 Ejemplos de JSON para Crear Locaciones y Categorías
 JSON para Crear una Ubicación:
-
-json
-
+```json
 {
   "name": "Restaurante La Trattoria",
   "category": "Restaurante Italiano",
   "longitude": -74.005941,
   "latitude": 40.712784
 }
-
+```
 JSON para Crear una Categoría:
-
-json
-
+```json
 {
   "name": "Museo de Historia Natural"
 }
-
+```
 Comprobación de la Funcionalidad
 
     Se han realizado pruebas exhaustivas para garantizar el funcionamiento correcto de todas las funcionalidades.
