@@ -24,6 +24,11 @@ Este proyecto implementa una API RESTful utilizando FastAPI para gestionar ubica
      uvicorn main:app --reload
      ```
 
+     * Si se presentan inconvenientes con el anterior comando, usar el sugerido en la documentación oficial de FastAPI:
+        ```bash
+     fastapi dev main.py
+     ```
+
 ## Documentación del API
 
 - Puedes acceder a la documentación interactiva del API visitando `/docs` en tu navegador después de iniciar el servidor. Por ejemplo, si estás ejecutando el servidor en `localhost`, puedes visitar `http://localhost:8000/docs`.
