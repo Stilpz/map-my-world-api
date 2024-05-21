@@ -22,4 +22,4 @@ def show_location(id: int):
 
 @app.post("/locations")
 def insert_location(location: Location):
-    return {"message" : f"Location {location:name} inserted"}
+    return {"message" : f"Location {location.name} inserted"}
