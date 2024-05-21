@@ -9,6 +9,11 @@ La API está diseñada para ser fácilmente utilizada e integrada en aplicacione
 Este resumen proporciona una descripción concisa de la API y sus características principales, lo que ayuda a los usuarios a entender rápidamente su funcionalidad y cómo utilizarla.
 ```
 
+El repositorio se encuentra en Línea. En la documentación se incluye ejemplos de uso resaltados para cada una de las funcionalidades principales del API.
+```css
+Ahora la documentación incluye ejemplos de uso resaltados para cada una de las funcionalidades principales del API, lo que facilita a los usuarios entender cómo utilizarlo.
+```
+
 ## Instrucciones de Uso
 
 1. **Instalación**:
@@ -83,10 +88,3 @@ Comprobación de la Funcionalidad
 
     Se han realizado pruebas exhaustivas para garantizar el funcionamiento correcto de todas las funcionalidades.
     Se pueden encontrar ejemplos de pruebas unitarias en el directorio tests/.
-
-Repositorio en Línea
-
-Ahora la documentación incluye ejemplos de uso resaltados para cada una de las funcionalidades principales del API.
-```css
-Ahora la documentación incluye ejemplos de uso resaltados para cada una de las funcionalidades principales del API, lo que facilita a los usuarios entender cómo utilizarlo.
-```
