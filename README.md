@@ -55,14 +55,26 @@ Ejemplo:
 PUT /location_category_review/Location1/Category1/
 ```
 
-Mostrar Registros Guardados:
+Ejemplos de JSON para Crear Locaciones y Categorías
+JSON para Crear una Ubicación:
 
-Para mostrar registros guardados, realiza una solicitud GET a la ruta /show_records/ con parámetros opcionales offset y limit para paginar los resultados.
+json
 
-Ejemplo:
-```http
-GET /show_records/?offset=0&limit=10
-```
+{
+  "name": "Restaurante La Trattoria",
+  "category": "Restaurante Italiano",
+  "longitude": -74.005941,
+  "latitude": 40.712784
+}
+
+JSON para Crear una Categoría:
+
+json
+
+{
+  "name": "Museo de Historia Natural"
+}
+
 Comprobación de la Funcionalidad
 
     Se han realizado pruebas exhaustivas para garantizar el funcionamiento correcto de todas las funcionalidades.
