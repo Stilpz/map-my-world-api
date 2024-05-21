@@ -2,7 +2,6 @@
 
 Este proyecto implementa una API RESTful utilizando FastAPI para gestionar ubicaciones, categorías y revisiones de ubicación-categoría.
 
-Resumen
 La API permite gestionar ubicaciones, categorías y revisiones de ubicación-categoría. Los usuarios pueden crear nuevos recursos, obtener recomendaciones de exploración, marcar combinaciones como revisadas y mostrar registros guardados. La documentación facilita el uso y la comprensión de la API.
 La API está diseñada para ser fácilmente utilizada e integrada en aplicaciones que requieren funcionalidades relacionadas con la exploración y revisión de ubicaciones en diferentes categorías. Además, la documentación proporcionada en el archivo README.md facilita a los usuarios entender cómo utilizar la API y realizar las solicitudes adecuadas.
 
