@@ -25,7 +25,7 @@ Este proyecto implementa una API RESTful utilizando FastAPI para gestionar ubica
      ```
 
      * Si se presentan inconvenientes con el anterior comando, usar el sugerido en la documentación oficial de FastAPI:
-        ```bash
+     ```bash
      fastapi dev main.py
      ```
 
