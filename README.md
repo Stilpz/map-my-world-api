@@ -11,7 +11,7 @@ Este resumen proporciona una descripción concisa de la API y sus característic
 
 El repositorio se encuentra en Línea. En la documentación se incluye ejemplos de uso resaltados para cada una de las funcionalidades principales del API.
 ```css
-Ahora la documentación incluye ejemplos de uso resaltados para cada una de las funcionalidades principales del API, lo que facilita a los usuarios entender cómo utilizarlo.
+La documentación incluye ejemplos de uso resaltados para cada una de las funcionalidades principales del API, lo que facilita a los usuarios entender cómo utilizarlo.
 ```
 
 ## Instrucciones de Uso
